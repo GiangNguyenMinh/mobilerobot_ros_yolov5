@@ -2,7 +2,7 @@
 ## Install 
 Clone from repo
 ```bash
-git clone https://github.com/GiangNguyenMinh/mobilerobot_ros_yolov5.git
+git clone --recurse-submodules https://github.com/GiangNguyenMinh/mobilerobot_ros_yolov5.git
 cd [your catkin ws directory]/src
 cp -r ~/mobilerobot_ros_yolov5/m2wr_description .
 ```
